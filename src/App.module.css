@@ -1,0 +1,19 @@
+.canvas {
+    width: 900px;
+    height: 900px;
+    border: 1px solid dimgray;
+    position: relative;
+    margin: auto;
+}
+
+.block {
+    border: 1px solid orange;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.title {
+    user-select: none;
+}
